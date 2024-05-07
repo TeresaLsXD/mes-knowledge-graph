@@ -10,7 +10,7 @@ import pandas as pd
 def Setup_Knowledge_Triples(triples):
 # 读取Excel文件  
 # 假设Excel文件名为'data_source.xlsx'，并且三元组元素分别位于'A', 'B', 'C'列  
-  df = pd.read_excel('E:\VsCode Projects\Python\MES\mes knowledge graph\data_source.xlsx', usecols=['A', 'B', 'C'])  
+  df = pd.read_excel('data_source.xlsx', usecols=['A', 'B', 'C'])  
   
 # 提取三元组  
 # 假设我们想要将每行的值作为一个三元组提取出来  
